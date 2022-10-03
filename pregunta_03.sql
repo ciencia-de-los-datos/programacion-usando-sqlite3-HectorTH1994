@@ -24,7 +24,7 @@
 --  
 
 SELECT
-    *
+    (*)
 FROM
     tbl1
 ORDER BY c14 DESC
