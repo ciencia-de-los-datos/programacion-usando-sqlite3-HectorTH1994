@@ -27,7 +27,6 @@ SELECT
     *
 FROM
     tbl1
-ORDER BY
-    c14 DESC
+ORDER BY c14 DESC
 LIMIT 
     5;
