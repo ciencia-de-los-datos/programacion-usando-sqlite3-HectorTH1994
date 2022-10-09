@@ -41,3 +41,12 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+SELECT
+    year(c23), avg(c21)
+FROM
+    tbl2
+GROUP BY
+	year(c23)
+ORDER BY
+	year(c23) ASC
+ ;
