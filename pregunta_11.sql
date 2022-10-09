@@ -39,7 +39,7 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
 SELECT
-     year(c14) as YEAR, count(K0) as CANT
+     year(c14) as YEAR, count(K0) as "COUNT(*)"
 FROM
     tbl1
 WHERE
