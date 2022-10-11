@@ -42,7 +42,7 @@ SELECT
      strftime('%Y', c14), count(K0) AS "COUNT(*)"
 FROM
     tbl1
-GROUP BY
-	strftime('%Y', c14)
 WHERE
 	strftime('%Y', c14)=2018
+GROUP BY
+	strftime('%Y', c14)
