@@ -39,7 +39,7 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
 SELECT
-     strftime('%Y', c14), count(K0) as "COUNT(*)"
+     strftime('%Y', c14), count(K0) AS "CANT"
 FROM
     tbl1
 WHERE
