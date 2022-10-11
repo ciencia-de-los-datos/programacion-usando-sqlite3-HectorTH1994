@@ -39,11 +39,10 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
 SELECT
-     strftime('%Y', c14), count(K0) AS "CANT"
+     strftime('%Y', c14), count(K0) AS "COUNT(*)"
 FROM
     tbl1
-WHERE
-	strftime('%Y', c14)=2018
 GROUP BY
 	strftime('%Y', c14)
- 
+WHERE
+	strftime('%Y', c14)=2018
