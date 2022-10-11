@@ -46,7 +46,4 @@ SELECT
 FROM
     tbl2
 GROUP BY
-	strftime('%Y',c23)
-
-ORDER BY
-	YEAR ASC;
+	strftime('%Y',c23);
