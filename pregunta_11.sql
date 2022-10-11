@@ -45,5 +45,5 @@ FROM
 WHERE
 	strftime('%Y',c14)=2018
 GROUP BY
-	YEAR
- ;
+	strftime('%Y',c14)
+ 
