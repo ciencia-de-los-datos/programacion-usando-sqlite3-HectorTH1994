@@ -42,7 +42,7 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 --
 SELECT
-    year(c23) as YEAR, avg(c21)
+    strftime('%Y', c23) as YEAR, avg(c21)
 FROM
     tbl2
 GROUP BY
