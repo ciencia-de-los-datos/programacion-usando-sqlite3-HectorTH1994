@@ -42,7 +42,7 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 --
 SELECT
-    strftime('%Y',c23), avg(c21)
+    strftime('%Y',c23), AVG(c21) as avg(c21)
 FROM
     tbl2
 GROUP BY
