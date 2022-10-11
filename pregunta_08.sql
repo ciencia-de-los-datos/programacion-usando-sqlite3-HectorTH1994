@@ -47,4 +47,3 @@ FROM
     tbl2
 GROUP BY
 	strftime('%Y', c23)
-    ;
